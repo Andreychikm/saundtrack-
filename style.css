@@ -1,3 +1,7 @@
+
+body{
+    background: #000;
+}
 .container{
     width: 1440px;
     height: 3818px;
@@ -5,20 +9,49 @@
     margin: 0 auto;
 }
 
-body{
-    background: #000;
-}
-header{
+
+.header{
+    display: flex;
+    flex-direction: row;
     height: 100px;
-    width: 1380px;
+    width: 100%;
     background: rgb(255, 255, 255);
 }
 
 .img-1{
     margin-top: 34px;
     margin-left: 60px;
+    display: block;
+    width: 148px;
+    height: 30px;
+
 }
-.head{
+/* .nav{
+    margin-top: 42px;
+    margin-left: 70px;
     display: flex;
     gap: 49px;
+    width: 100%;
+    font-size: 13px;
+    font-family: Poppins;
+
+} */
+
+.nav-1{
+    margin-top: 42px;
+    margin-left: 70px;
+    display: flex;
+    gap: 49px;
+    width: 100%;
+    font-size: 13px;
+    font-family: Poppins;
+}
+.nav-2{
+
+    margin-left: 589px;
+    display: flex;
+    gap: 49px;
+    width: 100%;
+    font-size: 13px;
+    font-family: Poppins;
 }
