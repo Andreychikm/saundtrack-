@@ -11,13 +11,14 @@ body{
 header{
     height: 100px;
     width: 1380px;
-    background: green;
+    background: rgb(255, 255, 255);
 }
 
 .img-1{
     margin-top: 34px;
     margin-left: 60px;
 }
-.text-1{
-    
+.head{
+    display: flex;
+    gap: 49px;
 }
