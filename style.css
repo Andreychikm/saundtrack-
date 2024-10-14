@@ -23,11 +23,15 @@ body{
 }
 
 .img-1{
-    margin-top: 34px;
+    /* margin-top: 34px;
     margin-left: 60px;
     display: block;
     width: 148px;
-    height: 30px;
+    height: 30px; */
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
     
 
 }
